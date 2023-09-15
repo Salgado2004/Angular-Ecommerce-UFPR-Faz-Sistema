@@ -6,9 +6,13 @@ _This project was generated with [Angular CLI](https://github.com/angular/angula
 
 ## Comandos úteis do Angular
 
+`ng new project-name` para criar um novo projeto Angular, com pré-configurações prontas.
+
 `ng serve` para rodar um servidor de desenvolvimento. Acesse `http://localhost:4200/`. A aplicação atualizará automaticamente a cada modificação.
 
 `ng generate component component-name` ou `ng g c component-name` para criar um novo componente. 
+
+`ng generate interface interface-name` ou `ng g i interface-name` para criar uma nova interface.
 
 `ng generate pipe pipe-name` ou `ng g p pipe-name` para criar um novo pipe.
 
@@ -17,5 +21,7 @@ _This project was generated with [Angular CLI](https://github.com/angular/angula
 `ng generate module module-name` ou `ng g m module-name` para criar um novo módulo.
 
 `ng build` para compilar o projeto final. Os arquivos gerados ficarão na pasta `dist/`.
+
+`ng version` para ver informações sobre a versão do Angular instalada na sua máquina.
 
 Para mais ajuda com o Angular CLI use `ng help` ou acesse [Angular CLI Overview and Command Reference](https://angular.io/cli).
