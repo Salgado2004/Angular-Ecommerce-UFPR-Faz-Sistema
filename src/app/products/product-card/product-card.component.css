@@ -1,7 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&display=swap');
+
 .card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  justify-content: space-between;
   width: 212px;
   height: 264px;
   border-radius: 10px;
   background: #F5F5F5;
   box-shadow: 5px 4px 4px 0px #00000040;
+  margin: 25px 15px;
+}
+
+img{
+  margin-top: 12px;
+  width: 90%;
+  height: 107px;
+  border-radius: 5px;
+}
+
+.product-description{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 90%;
+}
+
+.product-name, .product-price{
+  color: #000;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 7px;
+}
+
+.product-actions{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+
+.product-quantity{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 18px;
+}
+
+input[type=number]{
+  border-radius: 5px;
+  background: #8354bf80;
+  color: #000;
+  font-size: 20px;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+  outline: none;
+  padding: 0 4px;
+  width: 20%;
+}
+
+.add-to-cart{
+  width: 85%;
+  height: 31px;
+  border-radius: 5px;
+  background: #761CE8;
+  border: none;
+  outline: none;
+  margin-bottom: 8px;
+  color: #FFF;
+  font-family: Barlow Condensed;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  cursor: pointer;
+}
+
+.add-to-cart:disabled{
+    filter: grayscale(100%);
+    cursor: not-allowed;
 }

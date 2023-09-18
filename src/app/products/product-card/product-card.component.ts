@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./product-card.component.css']
 })
 export class ProductCardComponent {
+  quantidade: number = 0;
 
+  disableBotao(): boolean {
+    return this.quantidade <= 0 ? true:false;
+  }   
+
+  addProduto(): void {
+    alert('Produto adicionado ao carrinho!');
+  }
 }

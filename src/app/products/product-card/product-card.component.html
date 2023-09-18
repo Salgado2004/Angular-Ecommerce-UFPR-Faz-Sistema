@@ -1,4 +1,13 @@
 <div class="card">
-  <p>product-card works!</p>
-  <app-rating [rating]="4"></app-rating>
+  <img src="../../../assets/products/camera.jpg" alt="product image">
+  <div class="product-description">
+    <p class="product-name">Câmera fotográfica</p>
+    <p class="product-price">R$ 3.064,99</p>
+  </div>
+  <div class="product-actions">
+    <app-rating [rating]="4"></app-rating>
+    <p class="product-quantity">Un.</p>
+    <input type="number" [(ngModel)]="quantidade" min="0" max="100">
+  </div>
+  <button class="add-to-cart" [disabled]="disableBotao()" (click)="addProduto()">Adicionar ao carrinho</button>
 </div>
