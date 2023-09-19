@@ -18,7 +18,6 @@ export class RatingComponent {
   activestars: string[] = ['inactive', 'inactive', 'inactive', 'inactive', 'inactive'];
 
   ngOnInit() { 
-    console.log(this.rating);
     this.fullstars = Math.floor(this.rating);
     for (let i = 0; i < this.fullstars; i++) {
       this.activestars[i] = 'active';
