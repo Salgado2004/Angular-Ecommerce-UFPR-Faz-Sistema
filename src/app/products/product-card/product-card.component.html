@@ -1,11 +1,11 @@
 <div class="card">
-  <img src="../../../assets/products/camera.jpg" alt="product image">
+  <img src="{{ product.image }}" alt="{{ product.name }} image">
   <div class="product-description">
-    <p class="product-name">Câmera fotográfica</p>
-    <p class="product-price">R$ 3.064,99</p>
+    <p class="product-name">{{ product.name }}</p>
+    <p class="product-price">R$ {{ product.price }}</p>
   </div>
   <div class="product-actions">
-    <app-rating [rating]="4"></app-rating>
+    <app-rating [rating]="product.rating"></app-rating>
     <p class="product-quantity">Un.</p>
     <input type="number" [(ngModel)]="quantidade" min="0" max="100">
   </div>
