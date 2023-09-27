@@ -39,6 +39,54 @@
           "description": "Kit de maquiagem com 10 itens",
           "category": "Beleza",
           "rating": 4.5
+        },
+        { "id": 6,
+          "name": "Controle Xbox 360 USB",
+          "price": 120.80,
+          "image": "../../../assets/products/xbox-controler-1.jpg",
+          "description": "Controle Xbox 360 USB",
+          "category": "Eletrônicos",
+          "rating": 5
+        },
+        { "id": 7,
+          "name": "Controle PS4 sem fio",
+          "price": 150.60,
+          "image": "../../../assets/products/ps4-controler.png",
+          "description": "Controle PS4 sem fio",
+          "category": "Eletrônicos",
+          "rating": 5
+        },
+        { "id": 8,
+          "name": "Controle Xbox One sem fio",
+          "price": 230.80,
+          "image": "../../../assets/products/xbox1-controler.png",
+          "description": "Controle Xbox One sem fio",
+          "category": "Eletrônicos",
+          "rating": 4.5
+        },
+        { "id": 9,
+          "name": "Controle Multiplataforma sem fio",
+          "price": 90.50,
+          "image": "../../../assets/products/multi-controler.png",
+          "description": "Controle Multiplataforma sem fio",
+          "category": "Eletrônicos",
+          "rating": 3.5
+        },
+        { "id": 10,
+          "name": "Controle Nintendo Switch",
+          "price": 120.80,
+          "image": "../../../assets/products/nintendo-controler.png",
+          "description": "Controle Nintendo Switch",
+          "category": "Eletrônicos",
+          "rating": 3.5
+        },
+        { "id": 11,
+          "name": "Controle Xbox 360 LED sem fio",
+          "price": 310.40,
+          "image": "../../../assets/products/led-controler.png",
+          "description": "Controle Xbox 360 LED sem fio",
+          "category": "Eletrônicos",
+          "rating": 2.5
         }
       ]
 }
