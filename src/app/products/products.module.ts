@@ -9,8 +9,6 @@ import { ProductCardComponent } from './product-card/product-card.component';
 import { RatingComponent } from './rating/rating.component';
 import { ProductsService } from './products.service';
 
-
-
 @NgModule({
   declarations: [
     ListProductsComponent,

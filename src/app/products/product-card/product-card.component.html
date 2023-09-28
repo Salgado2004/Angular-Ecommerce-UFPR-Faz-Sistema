@@ -2,7 +2,7 @@
   <img src="{{ product.image }}" alt="{{ product.name }} image">
   <div class="product-description">
     <p class="product-name">{{ product.name }}</p>
-    <p class="product-price">R$ {{ product.price }}</p>
+    <p class="product-price">{{ product.price | money }}</p>
   </div>
   <div class="product-actions">
     <app-rating [rating]="product.rating"></app-rating>
