@@ -8,6 +8,7 @@ import { ListProductsComponent } from './list-products/list-products.component';
 import { ProductCardComponent } from './product-card/product-card.component';
 import { RatingComponent } from './rating/rating.component';
 import { ProductsService } from './products.service';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ProductsService } from './products.service';
     SharedModule,
     ProductsRoutingModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    MatSnackBarModule
   ],
   providers: [ ProductsService]
 })

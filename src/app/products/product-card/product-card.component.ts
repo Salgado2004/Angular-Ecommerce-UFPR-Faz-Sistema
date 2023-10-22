@@ -1,5 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { ProductInfo } from '../product-info';
+import { GlobalEventEmitterService } from '../../shared/global-event-emitter.service';
 
 @Component({
   selector: 'app-product-card',
@@ -15,6 +16,6 @@ export class ProductCardComponent {
   }   
 
   addProduto(): void {
-    alert('Produto adicionado ao carrinho!');
+    GlobalEventEmitterService.get('addIten').emit(this.product);
   }
 }

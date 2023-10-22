@@ -8,6 +8,7 @@
 header{
   display: flex;
   align-items: center;  
+  justify-content: space-between;
   width: 100%;
   height: 100px;
   background: linear-gradient(164deg, #8354BF 28.75%, #761CE8 78.55%);
@@ -24,5 +25,14 @@ header{
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+mat-icon{
+  background: radial-gradient(50% 50% at 50% 50%, #FFF 75%, #E9DADA 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 22pt;
+  margin-right: 15px;
 }
 
