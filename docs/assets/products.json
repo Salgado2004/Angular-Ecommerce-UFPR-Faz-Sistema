@@ -3,7 +3,7 @@
         { "id": 1,
           "name": "Câmera fotográfica", 
           "price": 3064.99, 
-          "image": "assets/products/camera.jpg",
+          "image": "../assets/products/camera.jpg",
           "description": "Câmera fotográfica profissional com 24.2 megapixels e lente 18-55mm",
           "category": "Eletrônicos",
           "rating": 4.5
@@ -11,7 +11,7 @@
         { "id": 2,
           "name": "Smartphone",
           "price": 1999.99,
-          "image": "assets/products/smartphone.jpg",
+          "image": "../assets/products/smartphone.jpg",
           "description": "Smartphone Samsung Galaxy A71 128GB Azul 6GB RAM",
           "category": "Eletrônicos",
           "rating": 4.8
@@ -19,7 +19,7 @@
         { "id": 3,
           "name": "Your heart is the sea - capa dura",
           "price": 79.90,
-          "image": "assets/products/book-cover.jpg",
+          "image": "../assets/products/book-cover.jpg",
           "description": "Livro de poesias de Nikita Gill",
           "category": "Livros",
           "rating": 3.5
@@ -27,7 +27,7 @@
         { "id": 4,
           "name": "Mouse sem fio - Apple",
           "price": 59.90,
-          "image": "assets/products/apple-mouse.png",
+          "image": "../assets/products/apple-mouse.png",
           "description": "Mouse sem fio Apple Magic Mouse 2",
           "category": "Eletrônicos",
           "rating": 2.5
@@ -35,7 +35,7 @@
         { "id": 5,
           "name": "Kit de maquiagem",
           "price": 44.90,
-          "image": "assets/products/makeup.png",
+          "image": "../assets/products/makeup.png",
           "description": "Kit de maquiagem com 10 itens",
           "category": "Beleza",
           "rating": 4.5
@@ -43,7 +43,7 @@
         { "id": 6,
           "name": "Controle Xbox 360 USB",
           "price": 120.80,
-          "image": "assets/products/xbox-controler-1.jpg",
+          "image": "../assets/products/xbox-controler-1.jpg",
           "description": "Controle Xbox 360 USB",
           "category": "Eletrônicos",
           "rating": 5
@@ -51,7 +51,7 @@
         { "id": 7,
           "name": "Controle PS4 sem fio",
           "price": 150.60,
-          "image": "assets/products/ps4-controler.png",
+          "image": "../assets/products/ps4-controler.png",
           "description": "Controle PS4 sem fio",
           "category": "Eletrônicos",
           "rating": 5
@@ -59,7 +59,7 @@
         { "id": 8,
           "name": "Controle Xbox One sem fio",
           "price": 230.80,
-          "image": "assets/products/xbox1-controler.png",
+          "image": "../assets/products/xbox1-controler.png",
           "description": "Controle Xbox One sem fio",
           "category": "Eletrônicos",
           "rating": 4.5
@@ -67,7 +67,7 @@
         { "id": 9,
           "name": "Controle Multiplataforma sem fio",
           "price": 90.50,
-          "image": "assets/products/multi-controler.png",
+          "image": "../assets/products/multi-controler.png",
           "description": "Controle Multiplataforma sem fio",
           "category": "Eletrônicos",
           "rating": 3.5
@@ -75,7 +75,7 @@
         { "id": 10,
           "name": "Controle Nintendo Switch",
           "price": 120.80,
-          "image": "assets/products/nintendo-controler.png",
+          "image": "../assets/products/nintendo-controler.png",
           "description": "Controle Nintendo Switch",
           "category": "Eletrônicos",
           "rating": 3.5
@@ -83,7 +83,7 @@
         { "id": 11,
           "name": "Controle Xbox 360 LED sem fio",
           "price": 310.40,
-          "image": "assets/products/led-controler.png",
+          "image": "../assets/products/led-controler.png",
           "description": "Controle Xbox 360 LED sem fio",
           "category": "Eletrônicos",
           "rating": 2.5
