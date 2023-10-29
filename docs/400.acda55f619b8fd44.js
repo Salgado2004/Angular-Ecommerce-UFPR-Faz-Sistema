@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkAngular_Webservice_UFPR_Faz_Sistema=self.webpackChunkAngular_Webservice_UFPR_Faz_Sistema||[]).push([[400],{8400:(_,a,u)=>{u.r(a),u.d(a,{CheckoutModule:()=>n});var l=u(6895),o=u(4650);let n=(()=>{var e;class c{}return(e=c).\u0275fac=function(t){return new(t||e)},e.\u0275mod=o.oAB({type:e}),e.\u0275inj=o.cJS({imports:[l.ez]}),c})()}}]);
