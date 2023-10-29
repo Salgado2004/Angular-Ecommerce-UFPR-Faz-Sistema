@@ -4,6 +4,8 @@
 
 Esta é uma solução Front-end para um website de E-commerce desenvolvido como parte do Projeto de Extensão **UFPR Faz Sistema**. Desenvolvido pelo aluno Leonardo Felipe Salgado, aluno do 2º período do curso de Tecnologia em Análise e Desenvolvimento de Sistemas da Universidade Federal do Paraná.
 
+**Para ver o projeto acesse: _[https://salgado2004.github.io/Angular-Ecommerce-UFPR-Faz-Sistema/](https://salgado2004.github.io/Angular-Ecommerce-UFPR-Faz-Sistema/)_**
+
 ## Tecnologias utilizadas
 
 Esse projeto foi desenvolvido com:
