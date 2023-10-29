@@ -2,7 +2,7 @@
 
 ### Leonardo Felipe Salgado
 
-Este é um projeto de um Website de E-commerce para o Projeto de Extensão "UFPR Faz Sistema". Desenvolvido pelo aluno Leonardo Felipe Salgado, aluno do 2º período do curso de Tecnologia em Análise e Desenvolvimento de Sistemas da Universidade Federal do Paraná.
+Este é um projeto de uma solução Front-end para um website de E-commerce para o Projeto de Extensão **UFPR Faz Sistema**. Desenvolvido pelo aluno Leonardo Felipe Salgado, aluno do 2º período do curso de Tecnologia em Análise e Desenvolvimento de Sistemas da Universidade Federal do Paraná.
 
 ## Tecnologias utilizadas
 
