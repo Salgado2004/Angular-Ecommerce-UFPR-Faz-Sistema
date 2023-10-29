@@ -2,7 +2,19 @@
 
 ### Leonardo Felipe Salgado
 
-_This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.5._
+Esta é uma solução Front-end para um website de E-commerce desenvolvido como parte do Projeto de Extensão **UFPR Faz Sistema**. Desenvolvido pelo aluno Leonardo Felipe Salgado, aluno do 2º período do curso de Tecnologia em Análise e Desenvolvimento de Sistemas da Universidade Federal do Paraná.
+
+## Tecnologias utilizadas
+
+Esse projeto foi desenvolvido com:
+- _[Angular CLI](https://github.com/angular/angular-cli) versão 15.1.5._
+- _[Node](https://nodejs.org/en) versão 18.14.0_
+
+## Como contribuir
+
+Este projeto é aberto a contribuições. Se você quiser contribuir para o desenvolvimento, basta clonar este repositório, fazer as alterações desejadas e enviar um pull request.
+
+Para dúvidas ou sugestões, também é possível acessar a aba `Discussions` do Github e iniciar uma nova discussão.
 
 ## Comandos úteis do Angular
 
