@@ -33,6 +33,8 @@ jobs:
           node-version: '15' # Especifica a versão do Node.js
       - name: Install dependencies
         run: npm install
+      - name: Install Angular CLI
+        run: npm install -g @angular/cli
       - name: Build the Angular app
         run: ng build
 
