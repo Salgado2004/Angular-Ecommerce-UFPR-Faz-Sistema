@@ -37,10 +37,11 @@ jobs:
         run: npm install -g @angular/cli
       - name: Build the Angular app
         run: ng build
-      - name: Echo location
-        run: pwd
-      - name: List files
-        run: ls -l ./dist/angular-webservice-ufpr-faz-sistema
+      - name: Upload build artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: angular-build
+          path: ./dist/angular-webservice-ufpr-faz-sistema
 
   deploy:
     needs: build # Garante que o deploy só aconteça após o build ser bem-sucedido
@@ -53,10 +54,11 @@ jobs:
         uses: actions/checkout@v4
       - name: Setup Pages
         uses: actions/configure-pages@v5
-      - name: Echo location
-        run: pwd
-      - name: List files
-        run: ls -l ./dist/angular-webservice-ufpr-faz-sistema
+      - name: Download build artifacts
+        uses: actions/download-artifact@v2
+        with:
+          name: angular-build
+          path: ./dist
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
