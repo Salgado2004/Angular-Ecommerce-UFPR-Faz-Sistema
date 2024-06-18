@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkAngular_Webservice_UFPR_Faz_Sistema=self.webpackChunkAngular_Webservice_UFPR_Faz_Sistema||[]).push([[943],{2943:(d,e,_)=>{_.r(e),_.d(e,{CartModule:()=>n});var l=_(6895),u=_(4466),r=_(4650);let n=(()=>{var a;class s{}return(a=s).\u0275fac=function(o){return new(o||a)},a.\u0275mod=r.oAB({type:a}),a.\u0275inj=r.cJS({imports:[l.ez,u.m]}),s})()}}]);
