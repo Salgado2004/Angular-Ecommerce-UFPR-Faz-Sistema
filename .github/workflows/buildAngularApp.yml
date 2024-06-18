@@ -37,6 +37,8 @@ jobs:
         run: npm install -g @angular/cli
       - name: Build the Angular app
         run: ng build
+      - name: Echo location
+        run: pwd
       - name: List files
         run: ls -l ./dist/angular-webservice-ufpr-faz-sistema
 
@@ -51,6 +53,10 @@ jobs:
         uses: actions/checkout@v4
       - name: Setup Pages
         uses: actions/configure-pages@v5
+      - name: Echo location
+        run: pwd
+      - name: List files
+        run: ls -l ./dist/angular-webservice-ufpr-faz-sistema
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
