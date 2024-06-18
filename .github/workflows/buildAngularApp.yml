@@ -37,6 +37,8 @@ jobs:
         run: npm install -g @angular/cli
       - name: Build the Angular app
         run: ng build
+      - name: List files
+        run: ls -l ./dist/angular-webservice-ufpr-faz-sistema
 
   deploy:
     needs: build # Garante que o deploy só aconteça após o build ser bem-sucedido
@@ -52,7 +54,6 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Upload files in the /dist directory
           path: './dist/angular-webservice-ufpr-faz-sistema'
       - name: Deploy to GitHub Pages
         id: deployment
