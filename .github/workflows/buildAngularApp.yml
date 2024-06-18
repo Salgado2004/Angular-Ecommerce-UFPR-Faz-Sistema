@@ -36,7 +36,7 @@ jobs:
       - name: Install Angular CLI
         run: npm install -g @angular/cli
       - name: Build the Angular app
-        run: ng build
+        run: ng build --configuration=production --base-href "https://salgado2004.github.io/Angular-Ecommerce-UFPR-Faz-Sistema/"
       - name: Upload build artifacts
         uses: actions/upload-artifact@v2
         with:
