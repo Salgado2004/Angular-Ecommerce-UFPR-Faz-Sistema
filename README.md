@@ -46,4 +46,5 @@ Para ver as modificações que você aplicou, use o comando `ng serve` para roda
 
 `ng version` para ver informações sobre a versão do Angular instalada na sua máquina.
 
-Para mais ajuda com o Angular CLI use `ng help` ou acesse [Angular CLI Overview and Command Reference](https://angular.io/cli).
+> [!tip]
+> Para mais ajuda com o Angular CLI use `ng help` ou acesse [Angular CLI Overview and Command Reference](https://angular.io/cli).
